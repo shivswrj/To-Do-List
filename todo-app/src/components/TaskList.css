@@ -1,0 +1,27 @@
+/* src/components/TaskList.css */
+.task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .task-item:last-child {
+    border-bottom: none;
+  }
+  
+  .task-info h2 {
+    margin: 0;
+    color: var(--primary-color);
+  }
+  
+  .task-actions button {
+    margin-left: 10px;
+  }
+  
